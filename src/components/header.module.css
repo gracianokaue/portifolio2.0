@@ -1,0 +1,40 @@
+.logo{
+    width: 125px;
+    height: 125px;
+    background-image: url(../assets/logo.jpeg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav{
+    height: 125px;
+    position: absolute;
+    top: 0;
+    left: 126px;
+}
+
+.buttons{
+    position: absolute;
+    top: 10px;
+    display: flex;
+}
+
+.buttons img{
+    width: 24px;
+    height: 24px;
+}
+
+.contacts{
+    margin-left: 7px;
+}
+
+/*#contactLinkedin{
+    position: absolute;
+}
+
+#contactGithub{
+    position: absolute;
+    left: 147px;
+}*/
