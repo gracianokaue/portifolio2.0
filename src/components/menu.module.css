@@ -1,0 +1,89 @@
+.menuContainer{
+    position: absolute;
+    top: 15px;
+    right: 40px;
+}
+
+.menuContainer ul{
+
+    position: absolute;
+    z-index: 998;
+    left: 0;
+    top: -5px;
+    width: 250px;
+    height: 230px;
+    padding-top: 30px;
+    /*background-color: #FFFFFF;*/
+    opacity: 0.9;
+    margin-left: 60px;
+    border-radius: 10px;
+    list-style: none;
+    transition: all ease .2s;
+
+}
+
+.menuContainer ul li{
+
+    padding: 5px 30px;
+
+
+}
+
+.menuContainer ul li a{
+
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.menuContainer ul li a:hover{
+
+    border-bottom: #000000 2px solid;
+
+}
+
+.menuFaketrigger{
+
+    position: absolute;
+    z-index: 1000;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+.menuFaketrigger:checked ~.menuLines span{
+
+    background-color: #000000;
+
+}
+
+.menuFaketrigger:checked ~ul{
+
+    margin-left: -215px;
+
+}
+
+.menuLines{
+
+    position: absolute;
+    z-index: 999;
+    width: 25px;
+    height: 25px;
+
+}
+
+.menuLines span{
+
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin-bottom: 7px;
+    background-color: #000;
+    border-radius: 3px;
+    transition: all ease .2s;
+
+}
