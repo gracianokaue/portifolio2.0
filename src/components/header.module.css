@@ -1,6 +1,5 @@
 .containerHeader{
     width: 100%;
-    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +19,13 @@
     display: flex;
     justify-content:space-between;
     width: 126px;
+}
+
+.contacts :hover{
+   
+    transition: all ease 200ms;
+    transform: scale(1.25);
+    
 }
 
 .buttons img{
