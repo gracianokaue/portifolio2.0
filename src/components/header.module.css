@@ -12,23 +12,3 @@
     background-image: url(../assets/logo.jpeg);
     background-size: cover;
 }
-
-.buttons{
-    position: absolute;
-    top: 202px;
-    display: flex;
-    justify-content:space-between;
-    width: 126px;
-}
-
-.contacts :hover{
-   
-    transition: all ease 200ms;
-    transform: scale(1.25);
-    
-}
-
-.buttons img{
-    width: 32px;
-    height: 32px;
-}

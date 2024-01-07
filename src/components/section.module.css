@@ -33,3 +33,23 @@
     margin-top: 10px;
     color: #444;
 }
+
+.buttons{
+    margin-top: 10px;
+    width: 126px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.buttons img{
+    width: 32px;
+    height: 32px;
+}
+
+.contacts :hover{
+   
+    transition: all ease 200ms;
+    transform: scale(1.25);
+    
+}
