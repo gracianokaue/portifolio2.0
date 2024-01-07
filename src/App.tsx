@@ -1,7 +1,7 @@
 //import { useState } from 'react'
 import './App.css'
 import Header from './components/header'
-import Banner from './components/banner'
+import Section from './components/section'
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='container'>
       <Header />
-      <Banner />
+      <Section />
     </div>
   )
 }

@@ -1,0 +1,35 @@
+.sectionContainer{
+    height: 480px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionText{
+    width: 40vw;
+}
+
+.sectionPicture{
+    width: 40vw;
+    height: 100%;
+    width: 360px;
+    height: 360px;
+    border-radius: 180px;
+    background-image: url(../assets/author.png);
+    background-size: cover;
+}
+
+.sectionTitle{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.sectionInfo{
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 10px;
+    color: #444;
+}
